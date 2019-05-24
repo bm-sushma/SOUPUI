@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="dbb5cba2-1321-4dd4-ab2f-83e84cb075a6" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Add Dog" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="dbb5cba2-1321-4dd4-ab2f-83e84cb075a6fileName">Add-Dog</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Positive scenario" id="77e0a95d-8b43-456a-9093-408d550f9326"><con:settings/><con:config service="REST Service 3" resourcePath="/v2/pet" methodName="POST" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Positive scenario" id="14a5484c-b653-44eb-b8e8-e97521a36cc6" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://petstore.swagger.io</con:endpoint><con:request><![CDATA[{
+  "id": 101,
+  "category": {
+    "id": 10,
+    "name": "domestic"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjr_YG3wrPiAhXhAWMBHURfA3EQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.pexels.com%252Fphoto%252Fadorable-animal-breed-canine-356378%252F%26psig%3DAOvVaw3E7SXTkrQsfp4AzCCnfFkO%26ust%3D1558765041456541&psig=AOvVaw3E7SXTkrQsfp4AzCCnfFkO&ust=1558765041456541"
+  ],
+  "tags": [
+    {
+      "id": 102,
+      "name": "dogs"
+    }
+  ],
+  "status": "available"
+}]]></con:request><con:originalUri>https://petstore.swagger.io/v2/pet</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Negative scenario" id="1db519bb-10a8-4b4e-98d3-4cad5407b5a0"><con:settings/><con:config service="REST Service 15" resourcePath="/v2/pet" methodName="POST" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Negative scenario" id="1eecf503-196f-4993-a3ae-2d34cad9a08e" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://petstore.swagger.io</con:endpoint><con:request><![CDATA[{
+  "id": 101,
+  "category": {
+    "id": 10,
+    "name": "domestic"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    ""https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjOpqnC87PiAhUMcBQKHWpEBukQjRx6BAgBEAU&url=http%3A%2F%2Fprettypetz.in%2Fshop%2Fdog%2Flabrador-retriever%2Flabrador-retriever%2F&psig=AOvVaw3gjkpmipM92EKi10Dqwfsq&ust=1558778182380947""
+  ],
+  "tags": [
+    {
+      "id": 102,
+      "name": "dogs"
+    }
+  ],
+  "status": "available"
+}]]></con:request><con:originalUri>https://petstore.swagger.io/v2/pet</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

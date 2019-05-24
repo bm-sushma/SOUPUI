@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="7b04c9dd-fdcc-40b1-9a98-a71815d87cb2" name="Get Pets" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="7b04c9dd-fdcc-40b1-9a98-a71815d87cb2fileName">Get-Pets</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

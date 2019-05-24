@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="d6a3ef80-b709-481c-add7-b5c8905afded" name="Add new pet" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="d6a3ef80-b709-481c-add7-b5c8905afdedfileName">Add-new-pet</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
